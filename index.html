@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Remixicons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+
+    <!--Swiper -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--CSS file-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Lai Jien Weng - Portfolio</title>
+</head>
+<body>
+    <!--Header-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">Jien Weng</a>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="about.html" class="nav__link">About Me</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="portfolio.html" class="nav__link">Portfolio</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="contact.html" class="button">Contact Me</a>
+                    </li>
+                </ul>
+                <!--Close Button-->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__actions">
+                <!--Theme Button-->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                <!--Toggle Button-->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-apps-line"></i>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main JS -->
+        <script src="assets/js/main.js"></script>
+
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+        <!--Home-->
+        <section class="home section">
+            <div class="home__rectangle"></div>
+
+            <div class="home__container container grid">
+                <div class="home__profile profile">
+                    <div class="profile__content">
+                        <img src="assets/img/profile_pic.png" alt="Lai Jien Weng" class="profile__img">
+                    </div>
+                </div>
+
+                <div class="home__content gird">
+                    <div class="home__data grid">
+                        <h1 class="home__name">Lai Jien Weng</h1>
+
+                        <h2 class="home__profession">Data Science Enthusiast</h2>
+
+                        <div class="home__social">
+                            <a href="https://github.com/JienWeng" target="_blank" class="home__social-link">
+                                <i class="ri-github-fill"></i>
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/laijienweng" target="_blank" class="home__social-link">
+                                <i class="ri-linkedin-box-fill"></i>
+                            </a>
+
+                            <a href="https://medium.com/@jianrong-jr" target="_blank" class="home__social-link">
+                                <i class="ri-medium-fill"></i>
+                            </a>
+                    </div>
+                    <a href="assets/pdf/Resume.pdf" download="" class="home__button button">Download CV</a>
+                </div>
+            </div>
+        </section>
+
+        <!--Services-->
+        <section class="services section">
+            <h2 class="section__title">
+                The Services <br>
+                I Offer
+            </h2>
+
+            <div class="service__container container grid">
+                <article class="services__card">
+                    <i class="ri-character-recognition-line services__icon"></i></i>
+                    <h2 class="services__title">Predictive Modelling</h2>
+                    <p class="services__description">
+                        Proficient in leveraging data science methodologies to extract valuable insights and drive informed decision-making. <br>
+                        Skilled in data preprocessing, analysis, and visualization using Python, R, and SQL. <br>
+                        Experienced in machine learning techniques such as regression, classification, clustering, and deep learning.
+                    </p>
+
+                    <button class="services__button button">Know More</button>
+                
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class="ri-close-line services__modal-close"></i>
+
+                            <h2 class="services__modal-title">Predictive Modelling</h2>
+                            
+                            <ul class="services__modal-list grid">
+                                <li class="services__modal-item">
+                                    Assessing risk by analyzing historical patterns and identifying factors that contribute to specific outcomes. <br>
+                                    This is crucial in insurance for assessing the risk of policyholders, in finance for credit scoring, and in cybersecurity for detecting potential threats.
+                                </li>
+                                
+                                <li class="services__modal-item">
+                                    Forecast future trends and outcomes based on historical data. <br>
+                                </li>
+                                
+                                <li class="services__modal-item">
+                                    Optimization of processes and resources by identifying inefficiencies and recommending improvements.
+                                </li>
+
+                                <li class="services__modal-item">
+                                    Detect fraudulent activities by identifying unusual patterns or anomalies in data.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="services__card">
+                    <i class="ri-bar-chart-2-fill services__icon"></i>
+                    <h2 class="services__title">Data Analysis and Visualization</h2>
+                    <p class="services__description">
+                        Conduct exploratory data analysis (EDA) to uncover patterns, trends, and outliers within datasets. <br>
+                        Perform statistical analysis to derive meaningful insights and make data-driven decisions. <br>
+                        Utilize data visualization techniques to enhance understanding of complex data and facilitate strategic decision-making processes.
+                    </p>
+
+                    <button class="services__button button">Know More</button>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class="ri-close-line services__modal-close"></i>
+
+                            <h2 class="services__modal-title">Data Analysis and Visualization</h2>
+                            
+                            <ul class="services__modal-list grid">
+                                <li class="services__modal-item">
+                                    Proficient in data visualization and analysis using tools like Python, R, and Tableau.
+                                </li>
+
+                                <li class="services__modal-item">
+                                    Skilled in exploratory data analysis (EDA) to uncover patterns, trends, and relationships in datasets. 
+                                </li>
+                                
+                                <li class="services__modal-item">
+                                    Capable of identifying outliers, anomalies, and key performance indicators (KPIs) to drive decision-making.
+                                </li>
+
+                                <li class="services__modal-item">
+                                    Experienced in transforming complex data into clear and compelling visualizations.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!--Works-->
+        <section class="works section">
+            <h2 class="section__title">My Recent Works</h2>
+
+            <div class="work__container container grid">
+                <article class="work__card">
+                    <a href="https://github.com/JienWeng/loanApplication" target="_blank" class="work__link">
+                        <img src="assets/img/work-loanApproval.jpeg" alt="image" class="work__img">
+                        <i class="ri-arrow-right-circle-line work__icon"></i>
+                    </a>
+
+                    <h2 class="work__title">Predictive Modelling on Loan Approval</h2>
+                    <span class="work__subtitle">Improved Risk Assessment Leading to More Accurate Loan Approval Decisions.</span>
+                </article>
+
+                <article class="work__card">
+                    <a href="" target="_blank" class="work__link">
+                        <img src="assets/img/work-1.png" alt="image" class="work__img">
+                        <i class="ri-arrow-right-circle-line work__icon"></i>
+                    </a>
+
+                    <h2 class="work__title">Stay tune!</h2>
+                    <span class="work__subtitle">Stay tune!</span>
+                </article>
+
+                <article class="work__card">
+                    <a href="" target="_blank" class="work__link">
+                        <img src="assets/img/work-2.png" alt="image" class="work__img">
+                        <i class="ri-arrow-right-circle-line work__icon"></i>
+                    </a>
+
+                    <h2 class="work__title">Stay tune!</h2>
+                    <span class="work__subtitle">Stay tune!</span>
+                </article>
+
+                <article class="work__card">
+                    <a href="" target="_blank" class="work__link">
+                        <img src="assets/img/work-3.png" alt="image" class="work__img">
+                        <i class="ri-arrow-right-circle-line work__icon"></i>
+                    </a>
+
+                    <h2 class="work__title">Stay tune!</h2>
+                    <span class="work__subtitle">Stay tune!</span>
+                </article>
+
+                <article class="work__card">
+                    <a href="" target="_blank" class="work__link">
+                        <img src="assets/img/work-4.png" alt="image" class="work__img">
+                        <i class="ri-arrow-right-circle-line work__icon"></i>
+                    </a>
+
+                    <h2 class="work__title">Stay tune!</h2>
+                    <span class="work__subtitle">Stay tune!</span>
+                </article>
+
+                <article class="work__card">
+                    <a href="" target="_blank" class="work__link">
+                        <img src="assets/img/work-5.png" alt="image" class="work__img">
+                        <i class="ri-arrow-right-circle-line work__icon"></i>
+                    </a>
+
+                    <h2 class="work__title">Stay tune!</h2>
+                    <span class="work__subtitle">Stay tune!</span>
+                </article>
+            </div>
+        </section>
+
+        <!-- Testimonial -->
+        <section class="testimonial section">
+            <h2 class="section__title">
+                Let's Hear What They Say!
+            </h2>
+
+            <div class="testimonial__container container">
+                <div class="testimonial__swiper swiper">
+                    <div class="swiper-wrapper">
+                        <article class="testimonial__card swiper-slide">
+                            <div class="testimonial__border">
+                                <img src="assets/img/User-Profile-PNG.png" alt="image" class="testimonial__img">
+                            </div>
+
+                            <h2 class="testimonial__name">Stay tune!</h2>
+                            <p class="testimonial__description">
+                                Stay tuned!
+                            </p>
+                        </article>
+
+                        <article class="testimonial__card swiper-slide">
+                            <div class="testimonial__border">
+                                <img src="assets/img/User-Profile-PNG.png" alt="image" class="testimonial__img">
+                            </div>
+
+                            <h2 class="testimonial__name">Stay tune!</h2>
+                            <p class="testimonial__description">
+                                Stay tune!
+                            </p>
+                        </article>
+
+                        <article class="testimonial__card swiper-slide">
+                            <div class="testimonial__border">
+                                <img src="assets/img/therock.jpg" alt="image" class="testimonial__img">
+                            </div>
+
+                            <h2 class="testimonial__name">Still swiping?</h2>
+                            <p class="testimonial__description">
+                                Caught ya! Haha
+                            </p>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact section">
+            <div class="contact__container container grid">
+                <h2 class="section__title">
+                    Let's Talk <br>
+                    About Your Project
+                </h2>
+
+                <a href="contact.html" class="contact__button button">Contact Me</a>
+
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <div class="footer__content grid">
+                <a href="index.html" class="footer__logo">JienWeng</a>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="about.html" class="footer__link">About Me</a>
+                    </li>
+
+                    <li>
+                        <a href="portfolio.html" class="footer__link">Portfolio</a>
+                    </li>
+                    
+                    <li>
+                        <a href="contact.html" class="footer__link">Contact Me</a>
+                    </li>
+                </ul>
+
+                <div class="footer__social">
+                    <a href="www.linkedin.com/in/laijienweng" class="footer__social-link">
+                        <i class="ri-linkedin-box-fill"></i>
+                    </a>
+
+                    <a href="https://wa.me/qr/3OOPVVJJLJ2FD1" class="footer__social-link">
+                        <i class="ri-whatsapp-fill"></i>
+                    </a>
+
+                    <a href="https://github.com/JienWeng" class="footer__social-link">
+                        <i class="ri-github-fill"></i>
+                    </a>
+                    
+                    <a href="https://medium.com/@jianrong-jr" class="footer__social-link">
+                        <i class="ri-medium-fill"></i>
+                    </a>
+                </div>
+            </div>
+            <span class="footer__copy">
+                &#169; All Rights Reserved By Lai Jien Weng
+            </span>
+        </div>
+    </footer>
+
+    <!-- Scroll Up -->
+    <a href="" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+</body>
+</html>
